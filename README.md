@@ -1,6 +1,6 @@
 # Gemini Chat
 
-Gemini Chat is a streamlined command-line interface (CLI) tool designed to facilitate real-time conversations with Google's `gemini-pro` model. By leveraging this innovative AI, users can engage in interactive dialogues directly from their terminal. Each chat session is conveniently saved in a markdown file within the `history` directory, ensuring no moment of your interaction is lost.
+Gemini Chat is a streamlined command-line interface (CLI) tool designed to facilitate real-time conversations with Google's `gemini-pro` model. Users can engage in interactive dialogues directly from their terminal with each chat session saved in a markdown file within the `.history` directory, ensuring no moment of interaction is lost.
 
 ## Requirements
 
