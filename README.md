@@ -12,7 +12,7 @@ Gemini Chat is a streamlined command-line interface (CLI) tool designed to facil
 1. **Clone the Project**: Start by cloning the Gemini Chat repository to your local machine.
 
     ```sh
-    git clone <repository-url>
+    git clone git@github.com:melvinalmonte/gemini-chat.git
     cd gemini-chat
     ```
 
