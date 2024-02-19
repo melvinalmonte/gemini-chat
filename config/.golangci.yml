@@ -1,0 +1,61 @@
+linters:
+  disable:
+    # obnoxious
+    - contextcheck
+    - cyclop
+    - depguard
+    - dupl
+    - exhaustivestruct
+    - exhaustruct
+    - forcetypeassert
+    - funlen
+    - gochecknoglobals
+    - gochecknoinits
+    - gocognit
+    - gocyclo
+    - godox
+    - goerr113
+    - gomnd
+    - testpackage
+    - varnamelen
+
+    # buggy
+    - execinquery
+    - thelper
+
+    # deprecated
+    - deadcode
+    - golint
+    - ifshort
+    - interfacer
+    - maligned
+    - nosnakecase
+    - scopelint
+    - structcheck
+    - varcheck
+  enable-all: true
+
+linters-settings:
+  forbidigo:
+    forbid:
+      - '^errors\.Wrap$'
+      - '^errors\.Wrapf$'
+
+  gci:
+    sections:
+      - Standard
+      - Default
+      - Blank
+
+  gocritic:
+    disabled-checks:
+      - commentFormatting
+
+  lll:
+    line-length: 128
+
+issues:
+  exclude-rules:
+    - path: _test\.go
+      linters:
+        - bodyclose
